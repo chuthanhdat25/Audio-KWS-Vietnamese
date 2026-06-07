@@ -5,15 +5,11 @@
 > **Lớp:** D23CQCI01-N  
 > **GVHD:** Hồ Nhựt Minh  
 
-
-
 ##  Giới thiệu đề tài
 
 Đề tài xây dựng hệ thống **nhận dạng từ khóa (Keyword Spotting)** cho 2 lệnh giọng nói tiếng Việt cơ bản là **"có"** và **"không"**, phục vụ cho ứng dụng điều khiển thiết bị thông minh trong hệ thống IoT/mạng cảm biến.
 
 Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** được huấn luyện và triển khai trên nền tảng **Edge Impulse Studio**, hướng tới mục tiêu chạy trực tiếp trên thiết bị edge mà không cần kết nối Internet.
-
----
 
 ##  Mục tiêu
 
