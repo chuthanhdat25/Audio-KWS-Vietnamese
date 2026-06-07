@@ -56,6 +56,7 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 
 ##  Cấu trúc thư mục
 
+```
 Audio-KWS-Vietnamese/
 │
 ├── README.md                          # File mô tả dự án (file này)
@@ -75,7 +76,7 @@ Audio-KWS-Vietnamese/
     ├── confusion_matrix_test.png      # Confusion matrix test set
     └── metrics.png                    # Bảng metrics kết quả
 
-
+```
 ##  Edge Impulse Project
 
 Project công khai trên Edge Impulse:  
