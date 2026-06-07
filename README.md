@@ -18,8 +18,6 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 - Đạt **F1-score > 0.90** cho 2 lệnh chính
 - Triển khai mô hình dưới dạng **TensorFlow Lite** cho thiết bị edge
 
----
-
 ##  Kết quả đạt được
 
 ### Validation Set
@@ -44,8 +42,6 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 
 > AUC-ROC = **1.00** trên tập test
 
----
-
 ##  Công nghệ sử dụng
 
 | Thành phần | Công nghệ |
@@ -58,11 +54,8 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 | Sample rate | 16.000 Hz |
 | Sample length | 1.000 ms |
 
----
-
 ##  Cấu trúc thư mục
 
-```
 Audio-KWS-Vietnamese/
 │
 ├── README.md                          # File mô tả dự án (file này)
@@ -81,16 +74,12 @@ Audio-KWS-Vietnamese/
     ├── confusion_matrix_val.png       # Confusion matrix validation set
     ├── confusion_matrix_test.png      # Confusion matrix test set
     └── metrics.png                    # Bảng metrics kết quả
-```
 
----
 
 ##  Edge Impulse Project
 
 Project công khai trên Edge Impulse:  
 **https://studio.edgeimpulse.com/studio/1009314**
-
----
 
 ##  Cách tái tạo thực nghiệm
 
@@ -127,15 +116,11 @@ Model version:    Float32
 - Tab **Model testing** → **Classify all** → xem kết quả
 - Tab **Deployment** → **TensorFlow Lite (Float32)** → **Build** → Download
 
----
-
 ##  Thành viên
 
 | Họ và tên | MSSV | Lớp |
 |-----------|------|-----|
 | Chu Thành Đạt | N23DCCI011 | D23CQCI01-N |
-
----
 
 ##  Tài liệu tham khảo
 
@@ -144,8 +129,6 @@ Model version:    Float32
 3. Edge Impulse Inc., *"Edge Impulse Documentation,"* 2024. https://docs.edgeimpulse.com
 4. D. Banbury et al., *"Benchmarking TinyML Systems,"* arXiv:2003.04821, 2020.
 5. TensorFlow Team, *"TFLite for Microcontrollers,"* Google, 2023. https://tensorflow.org/lite/microcontrollers
-
----
 
 <p align="center">
   <b>PTIT HCM · ELE1421 Mạng Cảm Biến · 2026</b>
