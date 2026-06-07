@@ -1,4 +1,4 @@
-# 🎙️ Audio Keyword Spotting (KWS) — Tiếng Việt
+#  Audio Keyword Spotting (KWS) — Tiếng Việt
 
 > **Môn học:** ELE1421 — Mạng Cảm Biến  
 > **Học viện:** Công nghệ Bưu chính Viễn thông (PTIT) — Cơ sở TP.HCM  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Giới thiệu đề tài
+##  Giới thiệu đề tài
 
 Đề tài xây dựng hệ thống **nhận dạng từ khóa (Keyword Spotting)** cho 2 lệnh giọng nói tiếng Việt cơ bản là **"có"** và **"không"**, phục vụ cho ứng dụng điều khiển thiết bị thông minh trong hệ thống IoT/mạng cảm biến.
 
@@ -15,7 +15,7 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 
 ---
 
-## 🎯 Mục tiêu
+##  Mục tiêu
 
 - Nhận dạng 2 từ khóa tiếng Việt: `"có"` và `"không"`
 - Phân loại thêm 2 nhãn phụ: `"noise"` và `"unknown"`
@@ -24,7 +24,7 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 
 ---
 
-## 📊 Kết quả đạt được
+##  Kết quả đạt được
 
 ### Validation Set
 
@@ -34,23 +34,23 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 | khong | 0.93 |
 | unknown | 0.89 |
 | noise | 0.88 |
-| **Weighted F1** | **0.91** ✅ |
+| **Weighted F1** | **0.91**  |
 
 ### Test Set (Float32)
 
 | Nhãn | Accuracy | F1-Score |
 |------|----------|----------|
-| co | 100% | **1.00** 🏆 |
-| khong | 100% | **1.00** 🏆 |
+| co | 100% | **1.00**  |
+| khong | 100% | **1.00**  |
 | unknown | 91.7% | 0.96 |
 | noise | 92.3% | 0.92 |
-| **Weighted F1** | **96%** | **0.98** ✅ |
+| **Weighted F1** | **96%** | **0.98**  |
 
 > AUC-ROC = **1.00** trên tập test
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+##  Công nghệ sử dụng
 
 | Thành phần | Công nghệ |
 |-----------|-----------|
@@ -64,7 +64,7 @@ Hệ thống sử dụng đặc trưng **MFCC** kết hợp mô hình **CNN** đ
 
 ---
 
-## 📁 Cấu trúc thư mục
+##  Cấu trúc thư mục
 
 ```
 Audio-KWS-Vietnamese/
@@ -89,14 +89,14 @@ Audio-KWS-Vietnamese/
 
 ---
 
-## 🔗 Edge Impulse Project
+##  Edge Impulse Project
 
 Project công khai trên Edge Impulse:  
-👉 **https://studio.edgeimpulse.com/studio/1009314**
+**https://studio.edgeimpulse.com/studio/1009314**
 
 ---
 
-## ▶️ Cách tái tạo thực nghiệm
+##  Cách tái tạo thực nghiệm
 
 ### Bước 1 — Tạo tài khoản Edge Impulse
 Vào [studio.edgeimpulse.com](https://studio.edgeimpulse.com) → Đăng ký tài khoản miễn phí
@@ -133,15 +133,15 @@ Model version:    Float32
 
 ---
 
-## 👤 Thành viên
+##  Thành viên
 
 | Họ và tên | MSSV | Lớp |
 |-----------|------|-----|
-| [Họ và tên sinh viên] | [MSSV] | D23CQCI01-N |
+| Chu Thành Đạt | N23DCCI011 | D23CQCI01-N |
 
 ---
 
-## 📚 Tài liệu tham khảo
+##  Tài liệu tham khảo
 
 1. P. Warden, *"Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition,"* arXiv:1804.03209, 2018.
 2. Y. Zhang et al., *"Hello Edge: Keyword Spotting on Microcontrollers,"* arXiv:1711.07128, 2017.
